@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="index.css">
+ 
+
+ <script src="index.js" defer></script>
+</head>
+<body>
+
+ <div class="card">
+  <div class="userinput">
+    <div class="div date">
+      <label class="labels" for="input date">JOUR</label>
+      <input type="text" class="input date" maxlength="2" placeholder="DD" required>
+      <label class="Errorlabeldate" for="input date"></label>
+    </div>
+    <div class="div month">
+      <label class="labels" for="input month">MOIS</label>
+      <input class="input month" maxlength="2" placeholder="MM">
+      <label class="Errorlabelmonth" for="input month"></label>
+    </div>
+    <div class="div year">
+      <label class="labels" for="input year">ANNEE</label>
+      <input class="input year" maxlength="4" placeholder="YYYY">
+      <label class="Errorlabelyear" for="input year"></label>
+    </div>
+  </div>
+  <div class="pertition">
+    <div class="linediv"></div>
+    </svg>
+  </div>
+  <div class="display year">
+    <span class="year_result">--</span>
+    <span>years</span>
+  </div>
+  <div class="display month">
+    <span class="month_result">--</span>
+    <span>months</span>
+  </div>
+  <div class="display days">
+    <span class="days_result">--</span>
+    <span>days</span>
+  </div>
+</div>
+</body>
+</html>
